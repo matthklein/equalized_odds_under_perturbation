@@ -2,9 +2,9 @@
 Code for our paper "Equalized odds postprocessing under imperfect group information" (https://arxiv.org/abs/1906.03284).
 
 To reproduce the simulations presented in Section 5.1 ad Appendix A.4, set the parameters at the beginning of the script simulations.py and run
-'''
+```
 python simulations.py
-'''
+```
 
 The code has been tested with the following software versions:
 * Python 2.7.16
