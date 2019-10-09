@@ -10,7 +10,12 @@ To reproduce the experiments on the COMPAS or Adult data set presented in Sectio
 ```
 python experiments_real_data.py
 ```
-When running the script for the first time, it will automatically download the data sets for you.
+When running the script for the first time, it will automatically download the data sets for you. 
+
+Finally, to reproduce the experiment on the Drug Consumption data set presented in Section 5.2, set the number of replicates and the drugs to consider at the beginning of the script experiment_drug_data.py and run 
+```
+python experiment_drug_data.py
+```
 
 The code has been tested with the following software versions:
 * Python 2.7.16
