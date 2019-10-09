@@ -1,4 +1,4 @@
-# equalized_odds_with_perturbed_attribute
+# equalized_odds_under_perturbation
 Code for our paper "Equalized odds postprocessing under imperfect group information" (https://arxiv.org/abs/1906.03284).
 
 To reproduce the simulations presented in Section 5.1 and Appendix A.4, set the parameters at the beginning of the script simulations.py and run
