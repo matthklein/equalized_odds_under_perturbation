@@ -73,14 +73,14 @@ def equalized_odds_with_perturbation(a1,b1,a2,b2,PY1A0,PY1A1,PYm1A0,PYm1A1,g10,g
     b1 ... beta_1=Pr(Ytilde=1|Y=1,A=1)
     a2 ... alpha_2=Pr(Ytilde=1|Y=-1,A=0)
     b2 ... beta_2=Pr(Ytilde=1|Y=-1,A=1)
-    PY1A0:
-    PY1A1:
-    PYm1A0:
-    PYm1A1:
-    g10 ... P(Ac!=A|Y=1,A=0)
-    gm10 ... P(Ac!=A|Y=-1,A=0)
-    g11 ... P(Ac!=A|Y=1,A=1)
-    gm11 ... P(Ac!=A|Y=-1,A=1)
+    PY1A0 ... Pr(Y=1,A=0)
+    PY1A1 ... Pr(Y=1,A=1)
+    PYm1A0 ... Pr(Y=-1,A=0)
+    PYm1A1 ... Pr(Y=-1,A=1)
+    g10 ... Pr(Ac!=A|Y=1,A=0)
+    gm10 ... Pr(Ac!=A|Y=-1,A=0)
+    g11 ... Pr(Ac!=A|Y=1,A=1)
+    gm11 ... Pr(Ac!=A|Y=-1,A=1)
 
 
     OUTPUT:
